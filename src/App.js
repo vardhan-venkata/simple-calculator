@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="container">
       <h1>Calculator Item</h1>
-      <input value={expression} disabled={true} className="input-field" />
+      <input value={expression} type="text" disabled={true} className="input-field" />
       {result && <div className="result">{result}</div>}
       <div className="calculator-pad">
         {buttonItems.map((ele, index) => {
